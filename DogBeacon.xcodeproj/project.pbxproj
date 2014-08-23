@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E772409819A91E320077EDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409719A91E320077EDF8 /* Foundation.framework */; };
+		E772409A19A91E320077EDF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409919A91E320077EDF8 /* CoreGraphics.framework */; };
+		E772409C19A91E320077EDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409B19A91E320077EDF8 /* UIKit.framework */; };
+		E77240A219A91E320077EDF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E77240A019A91E320077EDF8 /* InfoPlist.strings */; };
+		E77240A419A91E320077EDF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240A319A91E320077EDF8 /* main.m */; };
+		E77240A819A91E320077EDF8 /* JFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240A719A91E320077EDF8 /* JFAppDelegate.m */; };
+		E77240AA19A91E320077EDF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77240A919A91E320077EDF8 /* Images.xcassets */; };
+		E77240B119A91E320077EDF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77240B019A91E320077EDF8 /* XCTest.framework */; };
+		E77240B219A91E320077EDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409719A91E320077EDF8 /* Foundation.framework */; };
+		E77240B319A91E320077EDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409B19A91E320077EDF8 /* UIKit.framework */; };
+		E77240BB19A91E320077EDF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E77240B919A91E320077EDF8 /* InfoPlist.strings */; };
+		E77240BD19A91E320077EDF8 /* DogBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240BC19A91E320077EDF8 /* DogBeaconTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77240B419A91E320077EDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E772408C19A91E320077EDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E772409319A91E320077EDF8;
+			remoteInfo = DogBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E772409419A91E320077EDF8 /* DogBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772409719A91E320077EDF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E772409919A91E320077EDF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E772409B19A91E320077EDF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E772409F19A91E320077EDF8 /* DogBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogBeacon-Info.plist"; sourceTree = "<group>"; };
+		E77240A119A91E320077EDF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E77240A319A91E320077EDF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E77240A519A91E320077EDF8 /* DogBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		E77240A619A91E320077EDF8 /* JFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAppDelegate.h; sourceTree = "<group>"; };
+		E77240A719A91E320077EDF8 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
+		E77240A919A91E320077EDF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E77240AF19A91E320077EDF8 /* DogBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77240B019A91E320077EDF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E77240B819A91E320077EDF8 /* DogBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogBeaconTests-Info.plist"; sourceTree = "<group>"; };
+		E77240BA19A91E320077EDF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E77240BC19A91E320077EDF8 /* DogBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBeaconTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E772409119A91E320077EDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772409A19A91E320077EDF8 /* CoreGraphics.framework in Frameworks */,
+				E772409C19A91E320077EDF8 /* UIKit.framework in Frameworks */,
+				E772409819A91E320077EDF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77240AC19A91E320077EDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77240B119A91E320077EDF8 /* XCTest.framework in Frameworks */,
+				E77240B319A91E320077EDF8 /* UIKit.framework in Frameworks */,
+				E77240B219A91E320077EDF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E772408B19A91E320077EDF8 = {
+			isa = PBXGroup;
+			children = (
+				E772409D19A91E320077EDF8 /* DogBeacon */,
+				E77240B619A91E320077EDF8 /* DogBeaconTests */,
+				E772409619A91E320077EDF8 /* Frameworks */,
+				E772409519A91E320077EDF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E772409519A91E320077EDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E772409419A91E320077EDF8 /* DogBeacon.app */,
+				E77240AF19A91E320077EDF8 /* DogBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E772409619A91E320077EDF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E772409719A91E320077EDF8 /* Foundation.framework */,
+				E772409919A91E320077EDF8 /* CoreGraphics.framework */,
+				E772409B19A91E320077EDF8 /* UIKit.framework */,
+				E77240B019A91E320077EDF8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E772409D19A91E320077EDF8 /* DogBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				E77240A619A91E320077EDF8 /* JFAppDelegate.h */,
+				E77240A719A91E320077EDF8 /* JFAppDelegate.m */,
+				E77240A919A91E320077EDF8 /* Images.xcassets */,
+				E772409E19A91E320077EDF8 /* Supporting Files */,
+			);
+			path = DogBeacon;
+			sourceTree = "<group>";
+		};
+		E772409E19A91E320077EDF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E772409F19A91E320077EDF8 /* DogBeacon-Info.plist */,
+				E77240A019A91E320077EDF8 /* InfoPlist.strings */,
+				E77240A319A91E320077EDF8 /* main.m */,
+				E77240A519A91E320077EDF8 /* DogBeacon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E77240B619A91E320077EDF8 /* DogBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77240BC19A91E320077EDF8 /* DogBeaconTests.m */,
+				E77240B719A91E320077EDF8 /* Supporting Files */,
+			);
+			path = DogBeaconTests;
+			sourceTree = "<group>";
+		};
+		E77240B719A91E320077EDF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77240B819A91E320077EDF8 /* DogBeaconTests-Info.plist */,
+				E77240B919A91E320077EDF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E772409319A91E320077EDF8 /* DogBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77240C019A91E320077EDF8 /* Build configuration list for PBXNativeTarget "DogBeacon" */;
+			buildPhases = (
+				E772409019A91E320077EDF8 /* Sources */,
+				E772409119A91E320077EDF8 /* Frameworks */,
+				E772409219A91E320077EDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogBeacon;
+			productName = DogBeacon;
+			productReference = E772409419A91E320077EDF8 /* DogBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77240AE19A91E320077EDF8 /* DogBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77240C319A91E320077EDF8 /* Build configuration list for PBXNativeTarget "DogBeaconTests" */;
+			buildPhases = (
+				E77240AB19A91E320077EDF8 /* Sources */,
+				E77240AC19A91E320077EDF8 /* Frameworks */,
+				E77240AD19A91E320077EDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77240B519A91E320077EDF8 /* PBXTargetDependency */,
+			);
+			name = DogBeaconTests;
+			productName = DogBeaconTests;
+			productReference = E77240AF19A91E320077EDF8 /* DogBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E772408C19A91E320077EDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jared Fishman";
+				TargetAttributes = {
+					E77240AE19A91E320077EDF8 = {
+						TestTargetID = E772409319A91E320077EDF8;
+					};
+				};
+			};
+			buildConfigurationList = E772408F19A91E320077EDF8 /* Build configuration list for PBXProject "DogBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E772408B19A91E320077EDF8;
+			productRefGroup = E772409519A91E320077EDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E772409319A91E320077EDF8 /* DogBeacon */,
+				E77240AE19A91E320077EDF8 /* DogBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E772409219A91E320077EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77240A219A91E320077EDF8 /* InfoPlist.strings in Resources */,
+				E77240AA19A91E320077EDF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77240AD19A91E320077EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77240BB19A91E320077EDF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E772409019A91E320077EDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77240A819A91E320077EDF8 /* JFAppDelegate.m in Sources */,
+				E77240A419A91E320077EDF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77240AB19A91E320077EDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77240BD19A91E320077EDF8 /* DogBeaconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77240B519A91E320077EDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E772409319A91E320077EDF8 /* DogBeacon */;
+			targetProxy = E77240B419A91E320077EDF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77240A019A91E320077EDF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77240A119A91E320077EDF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E77240B919A91E320077EDF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77240BA19A91E320077EDF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77240BE19A91E320077EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E77240BF19A91E320077EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77240C119A91E320077EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogBeacon/DogBeacon-Prefix.pch";
+				INFOPLIST_FILE = "DogBeacon/DogBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E77240C219A91E320077EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogBeacon/DogBeacon-Prefix.pch";
+				INFOPLIST_FILE = "DogBeacon/DogBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E77240C419A91E320077EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogBeacon.app/DogBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogBeacon/DogBeacon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DogBeaconTests/DogBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E77240C519A91E320077EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogBeacon.app/DogBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogBeacon/DogBeacon-Prefix.pch";
+				INFOPLIST_FILE = "DogBeaconTests/DogBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E772408F19A91E320077EDF8 /* Build configuration list for PBXProject "DogBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77240BE19A91E320077EDF8 /* Debug */,
+				E77240BF19A91E320077EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77240C019A91E320077EDF8 /* Build configuration list for PBXNativeTarget "DogBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77240C119A91E320077EDF8 /* Debug */,
+				E77240C219A91E320077EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E77240C319A91E320077EDF8 /* Build configuration list for PBXNativeTarget "DogBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77240C419A91E320077EDF8 /* Debug */,
+				E77240C519A91E320077EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E772408C19A91E320077EDF8 /* Project object */;
+}
