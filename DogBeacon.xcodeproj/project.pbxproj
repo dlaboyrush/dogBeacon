@@ -19,6 +19,11 @@
 		E77240B319A91E320077EDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409B19A91E320077EDF8 /* UIKit.framework */; };
 		E77240BB19A91E320077EDF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E77240B919A91E320077EDF8 /* InfoPlist.strings */; };
 		E77240BD19A91E320077EDF8 /* DogBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240BC19A91E320077EDF8 /* DogBeaconTests.m */; };
+		E77240C819A91E730077EDF8 /* JFDogProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240C719A91E730077EDF8 /* JFDogProfileVC.m */; };
+		E77240CA19A921A90077EDF8 /* JFDogProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77240C919A921A90077EDF8 /* JFDogProfileVC.xib */; };
+		E77240CE19A924AE0077EDF8 /* frenchPuppyPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77240CD19A924AE0077EDF8 /* frenchPuppyPic.jpg */; };
+		E77240D219A925290077EDF8 /* JFDashboardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77240D119A925290077EDF8 /* JFDashboardVC.xib */; };
+		E77240D519A925340077EDF8 /* JFDashboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77240D419A925340077EDF8 /* JFDashboardVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		E77240B819A91E320077EDF8 /* DogBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogBeaconTests-Info.plist"; sourceTree = "<group>"; };
 		E77240BA19A91E320077EDF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E77240BC19A91E320077EDF8 /* DogBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBeaconTests.m; sourceTree = "<group>"; };
+		E77240C619A91E730077EDF8 /* JFDogProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDogProfileVC.h; sourceTree = "<group>"; };
+		E77240C719A91E730077EDF8 /* JFDogProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDogProfileVC.m; sourceTree = "<group>"; };
+		E77240C919A921A90077EDF8 /* JFDogProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JFDogProfileVC.xib; path = ../JFDogProfileVC.xib; sourceTree = "<group>"; };
+		E77240CD19A924AE0077EDF8 /* frenchPuppyPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frenchPuppyPic.jpg; sourceTree = "<group>"; };
+		E77240D119A925290077EDF8 /* JFDashboardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDashboardVC.xib; sourceTree = "<group>"; };
+		E77240D319A925340077EDF8 /* JFDashboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDashboardVC.h; sourceTree = "<group>"; };
+		E77240D419A925340077EDF8 /* JFDashboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDashboardVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +119,12 @@
 		E772409D19A91E320077EDF8 /* DogBeacon */ = {
 			isa = PBXGroup;
 			children = (
+				E77240CD19A924AE0077EDF8 /* frenchPuppyPic.jpg */,
 				E77240A619A91E320077EDF8 /* JFAppDelegate.h */,
 				E77240A719A91E320077EDF8 /* JFAppDelegate.m */,
 				E77240A919A91E320077EDF8 /* Images.xcassets */,
 				E772409E19A91E320077EDF8 /* Supporting Files */,
+				E77240CB19A922550077EDF8 /* vcs */,
 			);
 			path = DogBeacon;
 			sourceTree = "<group>";
@@ -142,6 +156,35 @@
 				E77240B919A91E320077EDF8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E77240CB19A922550077EDF8 /* vcs */ = {
+			isa = PBXGroup;
+			children = (
+				E77240CF19A925100077EDF8 /* dog profile vc */,
+				E77240D019A925180077EDF8 /* dashboard vc */,
+			);
+			name = vcs;
+			sourceTree = "<group>";
+		};
+		E77240CF19A925100077EDF8 /* dog profile vc */ = {
+			isa = PBXGroup;
+			children = (
+				E77240C619A91E730077EDF8 /* JFDogProfileVC.h */,
+				E77240C719A91E730077EDF8 /* JFDogProfileVC.m */,
+				E77240C919A921A90077EDF8 /* JFDogProfileVC.xib */,
+			);
+			name = "dog profile vc";
+			sourceTree = "<group>";
+		};
+		E77240D019A925180077EDF8 /* dashboard vc */ = {
+			isa = PBXGroup;
+			children = (
+				E77240D119A925290077EDF8 /* JFDashboardVC.xib */,
+				E77240D319A925340077EDF8 /* JFDashboardVC.h */,
+				E77240D419A925340077EDF8 /* JFDashboardVC.m */,
+			);
+			name = "dashboard vc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77240D219A925290077EDF8 /* JFDashboardVC.xib in Resources */,
 				E77240A219A91E320077EDF8 /* InfoPlist.strings in Resources */,
+				E77240CE19A924AE0077EDF8 /* frenchPuppyPic.jpg in Resources */,
 				E77240AA19A91E320077EDF8 /* Images.xcassets in Resources */,
+				E77240CA19A921A90077EDF8 /* JFDogProfileVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77240A819A91E320077EDF8 /* JFAppDelegate.m in Sources */,
+				E77240C819A91E730077EDF8 /* JFDogProfileVC.m in Sources */,
 				E77240A419A91E320077EDF8 /* main.m in Sources */,
+				E77240D519A925340077EDF8 /* JFDashboardVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
