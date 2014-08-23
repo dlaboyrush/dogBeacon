@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29978F119A957CC0077F5C0 /* JFDogProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29978F019A957CC0077F5C0 /* JFDogProfileVC.xib */; };
 		E772409819A91E320077EDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409719A91E320077EDF8 /* Foundation.framework */; };
 		E772409A19A91E320077EDF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409919A91E320077EDF8 /* CoreGraphics.framework */; };
 		E772409C19A91E320077EDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409B19A91E320077EDF8 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D29978F019A957CC0077F5C0 /* JFDogProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDogProfileVC.xib; sourceTree = SOURCE_ROOT; };
 		E772409419A91E320077EDF8 /* DogBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E772409719A91E320077EDF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E772409919A91E320077EDF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,6 +175,7 @@
 				E77240C619A91E730077EDF8 /* JFDogProfileVC.h */,
 				E77240C719A91E730077EDF8 /* JFDogProfileVC.m */,
 				E77240C919A921A90077EDF8 /* JFDogProfileVC.xib */,
+				D29978F019A957CC0077F5C0 /* JFDogProfileVC.xib */,
 			);
 			name = "dog profile vc";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				E77240CE19A924AE0077EDF8 /* frenchPuppyPic.jpg in Resources */,
 				E77240AA19A91E320077EDF8 /* Images.xcassets in Resources */,
 				E77240CA19A921A90077EDF8 /* JFDogProfileVC.xib in Resources */,
+				D29978F119A957CC0077F5C0 /* JFDogProfileVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				E77240C219A91E320077EDF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E77240C319A91E320077EDF8 /* Build configuration list for PBXNativeTarget "DogBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				E77240C519A91E320077EDF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
