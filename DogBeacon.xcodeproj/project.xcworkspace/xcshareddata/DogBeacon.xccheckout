@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86B97AE0-3C6F-495B-8EBF-88B88753ADD3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DogBeacon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B259A100-B4B4-4C6E-B022-4A8344EB3887</key>
+		<string>https://github.com/dlaboyrush/dogBeacon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DogBeacon.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B259A100-B4B4-4C6E-B022-4A8344EB3887</key>
+		<string>../..</string>
+		<key>C88B4249-6622-491E-BC9D-B6DB0C56A5C7</key>
+		<string>../../DogBeacon</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dlaboyrush/dogBeacon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B259A100-B4B4-4C6E-B022-4A8344EB3887</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B259A100-B4B4-4C6E-B022-4A8344EB3887</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dogBeacon</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C88B4249-6622-491E-BC9D-B6DB0C56A5C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DogBeacon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

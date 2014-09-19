@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D29978F319A9709C0077F5C0 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29978F219A9709C0077F5C0 /* View.xib */; };
-		D29978F419A974C70077F5C0 /* JFDogProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29978F619A974C70077F5C0 /* JFDogProfileVC.xib */; };
 		E772409819A91E320077EDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409719A91E320077EDF8 /* Foundation.framework */; };
 		E772409A19A91E320077EDF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409919A91E320077EDF8 /* CoreGraphics.framework */; };
 		E772409C19A91E320077EDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E772409B19A91E320077EDF8 /* UIKit.framework */; };
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D29978F219A9709C0077F5C0 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		D29978F519A974C70077F5C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JFDogProfileVC.xib; sourceTree = "<group>"; };
 		E772409419A91E320077EDF8 /* DogBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E772409719A91E320077EDF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E772409919A91E320077EDF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,8 +170,6 @@
 			children = (
 				E77240C619A91E730077EDF8 /* JFDogProfileVC.h */,
 				E77240C719A91E730077EDF8 /* JFDogProfileVC.m */,
-				D29978F619A974C70077F5C0 /* JFDogProfileVC.xib */,
-				D29978F219A9709C0077F5C0 /* View.xib */,
 			);
 			name = "dog profile vc";
 			sourceTree = "<group>";
@@ -266,12 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29978F319A9709C0077F5C0 /* View.xib in Resources */,
 				E77240D219A925290077EDF8 /* JFDashboardVC.xib in Resources */,
 				E77240A219A91E320077EDF8 /* InfoPlist.strings in Resources */,
 				E77240CE19A924AE0077EDF8 /* frenchPuppyPic.jpg in Resources */,
 				E77240AA19A91E320077EDF8 /* Images.xcassets in Resources */,
-				D29978F419A974C70077F5C0 /* JFDogProfileVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,15 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D29978F619A974C70077F5C0 /* JFDogProfileVC.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D29978F519A974C70077F5C0 /* en */,
-			);
-			name = JFDogProfileVC.xib;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		E77240A019A91E320077EDF8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
